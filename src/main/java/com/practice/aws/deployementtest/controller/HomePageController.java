@@ -14,7 +14,7 @@ import java.util.List;
 @Slf4j
 public class HomePageController {
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String home() {
         log.info("Entered home page url....");
         return "Welcome to AWS Docker Deployed Home Page......";
